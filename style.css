@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Global styles */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* https://www.magicpattern.design/tools/css-backgrounds */
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: radial-gradient(#4c4c4c 0.5px, #ffffff 0.5px);
+  background-size: 10px 10px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Article styles */
+article {
+  width: 400px;
+  background-color: white;
+  /* https://www.cssmatic.com/box-shadow */
+  -webkit-box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px 3px rgba(0, 0, 0, 0.75);
+}
+/* Header styles */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.header-profile {
+  display: flex;
+  align-items: center;
+}
+
+.header-profile img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+/* Figure and figcaption styles */
+figure {
+  margin: 0;
+}
+
+figcaption {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Paragraph and link styles */
+p {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* Font awesome styles */
+.fa-regular,
+.fa-solid {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.liked {
+  color: red;
+}
